@@ -1,4 +1,4 @@
-# Content Based Image Retrieval (CBIR)
+# Third Assignment [Tugas Ketiga]
 
 **# Deskripsi :**
 
