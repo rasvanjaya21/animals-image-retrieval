@@ -1,4 +1,4 @@
-# Content Based Image Retrieval (CBIR)
+# Second Assignment [Tugas Kedua]
 
 **# Deskripsi :**
 
