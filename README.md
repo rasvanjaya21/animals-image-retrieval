@@ -1,4 +1,4 @@
-# Content Based Image Retrieval (CBIR)
+# First Assignment [Tugas Pertama]
 
 **# Deskripsi :**
 
