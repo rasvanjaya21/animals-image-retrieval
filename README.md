@@ -2,7 +2,7 @@
 
 **# Deskripsi :**
 
-**Implementasi Sistem Pencarian Citra Berbasis Konten (CBIR)** menggunakan bahasa python dengan metode analisa ekstraksi fitur dari model **pre-trainded model VGG16**. Repository ini dibuat untuk memenuhi tugas **kedua** mata kuliah **Temu Kembali Citra**.
+**Implementasi Sistem Pencarian Citra Berbasis Konten (CBIR)** menggunakan bahasa python dengan metode analisa ekstraksi fitur dari model **pre-trainded model VGG16** sama seperti pada tugas pertama dengan pembeda dataset yang digunakan kali ini adalah menggunakan dataset jurnal referensi : **INRIA Holidays dataset**.  Repository ini dibuat untuk memenuhi tugas **kedua** mata kuliah **Temu Kembali Citra**.
 
 **# Penugasan :**
 
