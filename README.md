@@ -6,7 +6,7 @@
 
 **# Penugasan :**
 
-```1. Ubah dataset CBIR Code pdad  Tugas 1 dengan dataset yang sesuai dengan paper referensi utama```  
+```1. Ubah dataset CBIR Code pada Tugas 1 dengan dataset yang sesuai dengan paper referensi utama```  
 
 ```2. Simpan hasil kode program yang telah berhasil dijalankan ke Github dari Google Colab```
 
