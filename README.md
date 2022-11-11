@@ -8,8 +8,8 @@
 
 ```
 * code.ipynb : berisi source code dari implementasi CBIR
-* README.md : berisi deskripsi dan detail penugasan
-* referensi.pdf : berisi paper referensi utama
+* README.md : deskripsi, detail penugasan dan anggota kelompok
+* referensi.pdf : paper referensi utama
 ```
 
 **# Penugasan :**
