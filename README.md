@@ -1,7 +1,8 @@
 # Second Assignment [Tugas Kedua]
 **# Deskripsi :**
 
-**Implementasi Sistem Pencarian Citra Berbasis Konten (CBIR)** menggunakan bahasa python dengan metode analisa ekstraksi fitur dari model **pre-trainded model VGG16**. Repository ini dibuat untuk memenuhi tugas **kedua** mata kuliah **Temu Kembali Citra**.
+**Implementasi Sistem Pencarian Citra Berbasis Konten (CBIR)** menggunakan bahasa python dengan metode analisa ekstraksi fitur dari model **pre-trainded model VGG16**. Repository ini dibuat untuk memenuhi tugas **kedua** mata kuliah **Temu Kembali Citra**.</br>
+traksi fitur dari model **pre-trainded model VGG16**. Repository ini dibuat untuk memenuhi tugas **kedua** mata kuliah **Temu Kembali Citra**.
 ****
 **# Penugasan :**
 
