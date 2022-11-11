@@ -4,6 +4,14 @@
 
 **Implementasi Sistem Pencarian Citra Berbasis Konten (CBIR)** menggunakan bahasa python dengan metode analisa ekstraksi fitur dari model **pre-trainded model VGG16** sama seperti pada tugas pertama dengan pembeda dataset yang digunakan kali ini adalah menggunakan dataset jurnal referensi : **INRIA Holidays dataset**.  Repository ini dibuat untuk memenuhi tugas **kedua** mata kuliah **Temu Kembali Citra**.
 
+**# Table of Contents :**
+
+```
+* code.ipynb : berisi source code dari implementasi CBIR
+* README.md : berisi deskripsi dan detail penugasan
+* referensi.pdf : berisi paper referensi utama
+```
+
 **# Penugasan :**
 
 ```1. Ubah dataset CBIR Code pada Tugas 1 dengan dataset yang sesuai dengan paper referensi utama```  
