@@ -6,14 +6,14 @@
 
 **# Penugasan :**
 
-```1. Ubah dataset CBIR Code yang digunakan pada Tugas 1 dengan dataset yang sesuai dengan paper referensi utama```  
 
-```2. Simpan hasil kode program yang telah berhasil dijalankan ke Github dari Google Colab```
+1. Ubah dataset CBIR Code yang digunakan pada [Tugas 1](https://github.com/rasvanjaya21/content-based-image-retrieval/tree/first-assignment) dengan dataset yang sesuai dengan paper referensi utama 
 
-```3. Upload link Github kode program (CBIR Code) di LMS```  
+2. Simpan hasil kode program yang telah berhasil dijalankan ke Github dari Google Colab```
+
+3. Upload link Github kode program (CBIR Code) di LMS```  
 
 **# Kelompok :**
 
 ```1. Yusril Aminuddin (201910370311366)```  
-
 ```2. Irfan Azhari (201910370311388)```  
