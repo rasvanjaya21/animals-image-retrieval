@@ -15,16 +15,20 @@ function App() {
   }, []);
 
   return (
+    <>
+    <link rel="shortcut icon" href="{{ url_for('static/build', filename='favicon.ico') }}"/>
+
     <div>
       {(typeof data.predictions === "undefined") ? (
         <div> Loading... </div>
-      ) : (
-         data.predictions.map((val, key) => (
-          <div className="text-red-400" key={key}> {val} </div>
-        ))
-      )}
+        ) : (
+          data.predictions.map((val, key) => (
+            <div className="text-red-400" key={key}> {val} </div>
+            ))
+            )}
         
     </div>
+    </>
   );
 }
 
