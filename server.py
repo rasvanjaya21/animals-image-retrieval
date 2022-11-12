@@ -10,7 +10,13 @@ CORS(app)
 def index():
     return {"predictions": ["0.5", "0.6", "0.7"]}
 
-@app.route('/')
+
+@app.route("/favicon.ico")
+@cross_origin()
+def favicon():
+    return send_from_directory(app.static_folder, 'favicon.ico')
+
+@app.route("/")
 @cross_origin()
 def serve():
     return send_from_directory(app.static_folder, 'index.html')
