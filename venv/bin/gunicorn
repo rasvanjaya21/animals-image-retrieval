@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/pinc/Kuliah/Semester 7/Temu Kembali Citra 7A (Ir. Agus Eko Minarno, S.Kom., M.Kom. IPM.)/Assignment/content-based-image-retrieval/venv/bin/python" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from gunicorn.app.wsgiapp import run
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(run())
