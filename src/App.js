@@ -6,13 +6,12 @@ function App() {
   const [data, setData] = useState("");
 
   useEffect(() => {
-    fetch("/predict").then(res => res.json()
-    
-    ).then(data => {
-      setData(data);
-      console.log(data);
-
-    });
+    fetch("/api")
+			.then((res) => res.json())
+			.then((data) => {
+				setData(data);
+				console.log(data);
+			});
   }, []);
 
   return (
