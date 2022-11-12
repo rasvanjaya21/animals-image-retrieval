@@ -1,6 +1,7 @@
 from flask import Flask
 from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
+import os
 
 app = Flask(__name__, static_folder="static/build", static_url_path="/")
 CORS(app)
@@ -9,6 +10,10 @@ CORS(app)
 @cross_origin()
 def index():
     return {"predictions": ["0.5", "0.6", "0.7"]}
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.static_folder, 'static/build'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 @app.route('/')
 @cross_origin()
