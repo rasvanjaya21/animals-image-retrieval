@@ -13,7 +13,7 @@ def index():
 @app.route('/')
 @cross_origin()
 def serve():
-    return send_from_directory(app.static_folder, 'index.html')
+    return send_from_directory(app.static_folder, 'index.html', 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 if __name__ == '__main__':
     app.run()
