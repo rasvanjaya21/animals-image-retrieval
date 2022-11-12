@@ -20,3 +20,6 @@
 /static/npm-debug.log*
 /static/yarn-debug.log*
 /static/yarn-error.log*
+
+# custom
+venv
