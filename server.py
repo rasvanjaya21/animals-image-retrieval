@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask.helpers import send_from_directory
 from flask_cors import CORS, cross_origin
 
-app = Flask(__name__, static_folder="static/build", static_url_path="/")
+app = Flask(__name__, static_folder="templates/", static_url_path="/")
 CORS(app)
 
 # @app.route("/api", methods=["GET"])
@@ -18,7 +18,7 @@ CORS(app)
 @app.route("/")
 @cross_origin()
 def index():
-    return render_template("index.html")
+    return send_from_directory(app.static_folder , "index.html")
 
 if __name__ == '__main__':
     app.run()
