@@ -1,4 +1,5 @@
-from flask import Flask, Request, redirect, render_template
+from flask import Flask, Request, redirect
+from flask.helpers import send_from_directory
 import csv
 import glob
 import os
@@ -54,9 +55,12 @@ def home():
             image_names = os.listdir("static/result")
             nearest = sorted(os.listdir("static/result"))[0]
             target = os.listdir("static/uploaded")
-            return render_template("index.html", f1=(f1), accuracy=(accuracy), precision=(precision), recall=(recall), image_names=sorted(image_names), target=(target), page_status=1, count=len(datasets), nearest=(nearest))
+
+			# return render_template("index.html", f1=(f1), accuracy=(accuracy), precision=(precision), recall=(recall), image_names=sorted(image_names), target=(target), page_status=1, count=len(datasets), nearest=(nearest))
+            return send_from_directory(app.static_folder, "index.html")
         else :
-            return render_template("index.html", page_status=2, count=len(datasets))
+            # return render_template("index.html", page_status=2, count=len(datasets))
+            return send_from_directory(app.static_folder, "index.html")
 
 @app.route("/predict", methods=["POST"])
 def search():
