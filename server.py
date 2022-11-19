@@ -19,9 +19,9 @@ def index():
 	if os.path.exists("static/result") == True :
 		shutil.rmtree("static/result")
 		shutil.rmtree("static/uploaded")
-		return render_template("index.html")
+		return redirect("/home")
 	else :
-		return render_template("index.html")
+		return redirect("/home")
 
 @app.route("/home")
 def home():
