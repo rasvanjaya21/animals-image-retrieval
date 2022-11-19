@@ -1,12 +1,10 @@
 from flask import Flask
 from flask.helpers import send_from_directory
-from flask_cors import CORS, cross_origin
 
+# init flask with static folder for react
 app = Flask(__name__, static_folder="templates/", static_url_path="/")
-CORS(app)
 
 @app.route("/")
-@cross_origin()
 def index():
     return send_from_directory(app.static_folder , "index.html")
 
