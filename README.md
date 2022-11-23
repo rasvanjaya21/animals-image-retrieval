@@ -1,4 +1,4 @@
-![UMM Citra Preview](/asset/header.png)
+![UMM Citra Preview](static/assets/header.png)
 
 # Content Based Image Retrieval (CBIR)
 
